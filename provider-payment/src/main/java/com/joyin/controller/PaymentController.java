@@ -3,18 +3,21 @@ package com.joyin.controller;
 import com.joyin.entities.CommonResult;
 import com.joyin.entities.Payment;
 import com.joyin.service.PaymentService;
-import org.apache.ibatis.annotations.Param;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import javax.annotation.Resource;
 
 /**
  * @author zx
  */
+
 @Controller
 public class PaymentController {
-    @Autowired
+
+    @Resource
     private PaymentService paymentService;
+
 
     @PostMapping("/payment/create")
     @ResponseBody
@@ -29,7 +32,7 @@ public class PaymentController {
         }
     }
 
-    @GetMapping("/payment/get/{id}")
+    @GetMapping(value = "/payment/get/{id}")
     @ResponseBody
     public CommonResult getPaymentById(@PathVariable("id") Long id){
         Payment payment = paymentService.getPaymentById(id);

@@ -7,15 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="provider-payment" />
         <module name="cloud-eureka-server" />
+        <module name="mongo-service" />
+        <module name="cloud-eureka-server2" />
+        <module name="common" />
+        <module name="provider-payment" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cloud-eureka-server" options="-parameters" />
-      <module name="provider-payment" options="-parameters" />
+      <module name="cloud-eureka-server" options="" />
+      <module name="common" options="" />
+      <module name="provider-payment" options="" />
     </option>
   </component>
 </project>

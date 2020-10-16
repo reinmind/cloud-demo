@@ -2,16 +2,18 @@ package com.joyin.service;
 
 import com.joyin.dao.PaymentDao;
 import com.joyin.entities.Payment;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 /**
  * @author zx
  */
+
 @Service
 public class PaymentService {
 
-    @Autowired
+    @Resource
     public PaymentDao paymentDao;
 
     public int create(Payment payment){
