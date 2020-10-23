@@ -2,6 +2,7 @@ package com.reinmind.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
+import org.springframework.stereotype.Repository;
 
 /**
  * 用户实体类
@@ -10,6 +11,7 @@ import org.springframework.data.annotation.Id;
  * @date 2020/10/16
  */
 @Data
+@Repository
 public class Customer {
     @Id
     private String id;
