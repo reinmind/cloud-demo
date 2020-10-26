@@ -11,6 +11,7 @@
         <module name="mongo-service" />
         <module name="cloud-eureka-server2" />
         <module name="common" />
+        <module name="rabbitmq" />
         <module name="provider-payment" />
       </profile>
     </annotationProcessing>

@@ -12,6 +12,7 @@
       <module>common</module>
     <module>cloud-eureka-server2</module>
     <module>mongo-service</module>
+      <module>rabbitmq</module>
   </modules>
   <packaging>pom</packaging>
 
