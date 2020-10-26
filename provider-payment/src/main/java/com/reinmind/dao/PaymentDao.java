@@ -1,6 +1,6 @@
-package com.joyin.dao;
+package com.reinmind.dao;
 
-import com.joyin.entities.Payment;
+import com.reinmind.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

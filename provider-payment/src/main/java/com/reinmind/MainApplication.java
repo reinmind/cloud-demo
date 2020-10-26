@@ -1,16 +1,17 @@
-package com.joyin;
+package com.reinmind;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author zx
  */
+
 @SpringBootApplication
-@EnableEurekaServer
-public class EurekaMain2 {
+@EnableEurekaClient
+public class MainApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaMain2.class,args);
+        SpringApplication.run(MainApplication.class,args);
     }
 }

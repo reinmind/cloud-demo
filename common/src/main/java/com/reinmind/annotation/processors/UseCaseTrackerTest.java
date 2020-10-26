@@ -1,7 +1,7 @@
-package com.joyin.annotation.processors;
+package com.reinmind.annotation.processors;
 
-import com.joyin.annotation.UseCase;
-import com.joyin.utils.PasswordUtil;
+import com.reinmind.annotation.UseCase;
+import com.reinmind.utils.PasswordUtil;
 import org.junit.Test;
 
 import java.lang.reflect.Method;

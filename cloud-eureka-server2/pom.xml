@@ -42,7 +42,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.joyin.EurekaMain2</mainClass>
+                            <mainClass>com.reinmind.EurekaMain2</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

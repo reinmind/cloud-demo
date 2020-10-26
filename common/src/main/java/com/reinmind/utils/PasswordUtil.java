@@ -1,6 +1,6 @@
-package com.joyin.utils;
+package com.reinmind.utils;
 
-import com.joyin.annotation.UseCase;
+import com.reinmind.annotation.UseCase;
 
 import java.util.List;
 

@@ -8,4 +8,5 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://peer1:7001/eureka/
+      defaultZone: http://3g4v221570.qicp.vip:7001/
+debug: true

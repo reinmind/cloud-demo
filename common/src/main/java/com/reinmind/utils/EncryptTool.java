@@ -1,4 +1,4 @@
-package com.joyin.utils;
+package com.reinmind.utils;
 
 import com.alibaba.druid.filter.config.ConfigTools;
 import com.alibaba.druid.pool.DruidDataSource;

@@ -1,8 +1,8 @@
-package com.joyin.controller;
+package com.reinmind.controller;
 
-import com.joyin.entities.CommonResult;
-import com.joyin.entities.Payment;
-import com.joyin.service.PaymentService;
+import com.reinmind.entities.CommonResult;
+import com.reinmind.entities.Payment;
+import com.reinmind.service.PaymentService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 

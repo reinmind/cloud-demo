@@ -1,7 +1,7 @@
-package com.joyin.service;
+package com.reinmind.service;
 
-import com.joyin.dao.PaymentDao;
-import com.joyin.entities.Payment;
+import com.reinmind.dao.PaymentDao;
+import com.reinmind.entities.Payment;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

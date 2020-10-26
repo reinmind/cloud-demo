@@ -19,7 +19,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.joyin.MainApplication</mainClass>
+                            <mainClass>com.reinmind.MainApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

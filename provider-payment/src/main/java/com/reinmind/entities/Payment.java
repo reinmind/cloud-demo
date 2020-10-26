@@ -1,4 +1,4 @@
-package com.joyin.entities;
+package com.reinmind.entities;
 
 
 
