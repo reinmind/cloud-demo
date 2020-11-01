@@ -47,7 +47,7 @@ public class RabbitConsumer {
             }
         };
         channel.basicConsume(QUEUE_NAME,consumer);
-        TimeUnit.SECONDS.sleep(10000);
+        TimeUnit.SECONDS.sleep(100000);
         channel.close();
         connection.close();
     }

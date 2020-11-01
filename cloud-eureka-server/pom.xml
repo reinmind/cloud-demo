@@ -46,7 +46,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.reinmind.EurekaMain</mainClass>
+                            <mainClass>com.EurekaMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -55,7 +55,7 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>
-                        <mainClass>com.reinmind.EurekaMain</mainClass>
+                        <mainClass>com.EurekaMain</mainClass>
                     </configuration>
                     <executions>
                         <execution>
