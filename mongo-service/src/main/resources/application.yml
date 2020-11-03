@@ -1,2 +1,9 @@
 server:
   port: 5678
+spring:
+  data:
+    mongodb:
+      host: localhost
+      username: user
+      password: mypass
+      database: mydatabase

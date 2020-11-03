@@ -7,6 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import javax.annotation.Resource;
+
 /**
  * MongoService启动类
  *
@@ -15,7 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class MongoService implements CommandLineRunner {
-    @Autowired
+    @Resource
     private CustomerRepository repository;
 
     public static void main(String[] args) {
@@ -25,7 +27,6 @@ public class MongoService implements CommandLineRunner {
     @Override
     public void run(String ... args){
         repository.deleteAll();
-
         // save a couple of customers
         repository.save(new Customer("Alice","Smith"));
         repository.save(new Customer("Bob","Smith"));

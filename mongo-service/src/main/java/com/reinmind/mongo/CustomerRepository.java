@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * @author zx
  */
-
+@Repository
 public interface CustomerRepository extends MongoRepository<Customer,String> {
-     Customer findByName(String firstName);
-     List<Customer> findByLastName(String lastName);
+    Customer findByFirstName(String firstName);
+    List<Customer> findByLastName(String lastName);
 }

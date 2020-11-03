@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="4e5b80ec-27eb-4daf-9419-e5861133a63f">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="tacocloud" uuid="135e335e-155a-42db-bd46-416b36bbfa77">
+      <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="47.100.76.110" uuid="816bf807-6527-4669-b6ec-b70edb135d15">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://47.100.76.110:3306/demo</jdbc-url>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://localhost:27017/mydatabase</jdbc-url>
     </data-source>
   </component>
 </project>
