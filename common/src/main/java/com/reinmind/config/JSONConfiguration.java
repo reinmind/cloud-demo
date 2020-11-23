@@ -9,6 +9,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +29,7 @@ public class JSONConfiguration extends WebMvcConfigurationSupport {
         config.setSerializerFeatures(SerializerFeature.WriteNullStringAsEmpty);
 
         converter.setFastJsonConfig(config);
-        converter.setDefaultCharset(Charset.forName("UTF-8"));
+        converter.setDefaultCharset(StandardCharsets.UTF_8);
 
         //添加 application/json 到SupportMediaTypes
         List<MediaType> mediaTypeList = new ArrayList<>();
