@@ -41,8 +41,5 @@
             <version>1.18.14</version>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
-
-
 </project>

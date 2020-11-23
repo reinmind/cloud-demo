@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jms" />
         <module name="cloud-eureka-server" />
+        <module name="lunchorder" />
         <module name="common" />
         <module name="provider-payment" />
         <module name="mongo-service" />
