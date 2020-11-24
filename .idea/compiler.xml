@@ -12,9 +12,11 @@
         <module name="lunchorder" />
         <module name="common" />
         <module name="provider-payment" />
+        <module name="dubbo-provider" />
         <module name="mongo-service" />
         <module name="cloud-eureka-server2" />
         <module name="rabbitmq" />
+        <module name="dubbo-consumer" />
       </profile>
     </annotationProcessing>
   </component>
