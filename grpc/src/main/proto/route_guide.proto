@@ -1,0 +1,4 @@
+option java_package = "com.reinmind.grpc";
+service RouteGuide{
+
+}
