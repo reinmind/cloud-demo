@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="provider-payment" />
+        <module name="kafka-consumer" />
         <module name="cloud-eureka-server2" />
         <module name="rabbitmq" />
         <module name="rest-consumer" />
         <module name="redis" />
         <module name="grpc" />
+        <module name="kafka-provider" />
         <module name="jms" />
         <module name="cloud-eureka-server" />
         <module name="lunchorder" />

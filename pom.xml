@@ -20,6 +20,8 @@
         <module>rest-consumer</module>
         <module>redis</module>
         <module>grpc</module>
+        <module>kafka-provider</module>
+        <module>kafka-consumer</module>
 
     </modules>
     <packaging>pom</packaging>
