@@ -27,4 +27,6 @@ public enum Dict implements Serializable{
     public Integer getCode(){
         return this.code;
     }
+
+
 }

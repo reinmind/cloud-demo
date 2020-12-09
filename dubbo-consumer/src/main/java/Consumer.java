@@ -1,5 +1,9 @@
 import com.reinmind.service.interf.GreetingService;
+import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class Consumer {
     public static void main(String[] args) throws Exception {
@@ -12,4 +16,14 @@ public class Consumer {
         // Display the call result
         System.out.println(hello);
     }
+
+    Consumer(){
+
+    }
+    public Integer x;
+
+    Consumer(Integer x){
+        this.x = x;
+    }
+
 }

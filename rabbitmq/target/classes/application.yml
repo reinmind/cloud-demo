@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: 175.24.66.148
+    port: 5672
+    username: admin
+    password: admin
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 2
+          initial-interval: 3000
+        default-requeue-rejected: true

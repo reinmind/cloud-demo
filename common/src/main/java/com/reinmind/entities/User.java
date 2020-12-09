@@ -29,4 +29,12 @@ public class User {
     }
 
     String name;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
