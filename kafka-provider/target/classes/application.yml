@@ -1,8 +1,0 @@
-spring:
-  kafka:
-    bootstrap-servers:
-      - localhost:9092
-    template:
-      default-topic: kafka.hello
-server:
-  port: 8083
