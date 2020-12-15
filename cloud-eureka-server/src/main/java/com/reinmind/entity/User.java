@@ -1,6 +1,5 @@
 package com.reinmind.entity;
 
-import lombok.Data;
 import org.springframework.stereotype.Repository;
 
 

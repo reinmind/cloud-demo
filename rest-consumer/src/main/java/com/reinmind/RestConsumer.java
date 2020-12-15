@@ -17,10 +17,9 @@ import org.springframework.web.client.RestTemplate;
 
 
 @SpringBootApplication
-@Slf4j
 public class RestConsumer {
 
-    public static Logger logger = LoggerFactory.getLogger(RestConsumer.class);
+
     public static void main(String[] args) {
         SpringApplication.run(RestConsumer.class,args);
     }

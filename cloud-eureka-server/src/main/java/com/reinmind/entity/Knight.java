@@ -12,4 +12,5 @@ public interface Knight {
      * 行动
      */
     String action();
+
 }
