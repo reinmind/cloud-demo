@@ -1,3 +1,11 @@
 
 .idea/leetcode/editor.xml
 /rest-consumer/target/
+/redis/target/
+/rabbitmq/target/
+/redis/target/
+/provider-payment/target/
+/rest-consumer/target/
+/kafka-consumer/target/
+/cloud-eureka-server2/target/
+/cloud-eureka-server/target/
