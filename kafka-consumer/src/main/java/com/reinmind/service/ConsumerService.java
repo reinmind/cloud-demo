@@ -15,7 +15,7 @@ public class ConsumerService {
 
     private static final Logger logger = LoggerFactory.getLogger(ConsumerService.class);
 
-    @KafkaListener(groupId = "com.reinmind",topics="kafka.hello")
+    @KafkaListener(groupId = "com.reinmind",topics="quickstart-events")
     public void handle(String string, ConsumerRecord<String,String> record){
 
         logger.debug("Record from {} with timestamp {}", record.partition(),record.timestamp());

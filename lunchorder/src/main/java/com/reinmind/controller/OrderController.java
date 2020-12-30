@@ -3,6 +3,7 @@ package com.reinmind.controller;
 import com.reinmind.entities.Order;
 import com.reinmind.repository.OrderRepository;
 import com.reinmind.service.OrderService;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -23,7 +24,7 @@ public class OrderController {
     }
 
     @PostMapping("/singleInsert")
-    public Order singleInsert(@RequestBody Order order){
+    public Order singleInsert(@RequestBody @Validated Order order){
         return orderService.singleInsert(order);
     }
 

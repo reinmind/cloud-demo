@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
+import redis.clients.jedis.Jedis;
 
 import javax.annotation.Resource;
 
@@ -29,6 +30,13 @@ public class CommonController {
     @GetMapping("/get")
     public @ResponseBody Iterable<RedisObject> get(){
         return redisObjectRepository.findAll();
+    }
+
+    @PostMapping("/jedisPut")
+    public @ResponseBody String jedisPut(@RequestBody String object){
+        Jedis jedis = new Jedis();
+        logger.info(object);
+        return jedis.set("jedis",object);
     }
 
 }
