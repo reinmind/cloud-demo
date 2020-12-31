@@ -22,6 +22,8 @@
         <module>grpc</module>
         <module>kafka-provider</module>
         <module>kafka-consumer</module>
+        <module>pdfbox</module>
+        <module>itextpdf</module>
 
     </modules>
     <packaging>pom</packaging>
