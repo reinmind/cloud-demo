@@ -6,6 +6,9 @@ import org.springframework.data.annotation.Id;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author xiang.zhang
+ */
 @Data
 public class Order {
     @Id

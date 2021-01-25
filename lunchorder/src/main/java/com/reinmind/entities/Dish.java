@@ -9,6 +9,9 @@ import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
+/**
+ * @author xiang.zhang
+ */
 @Data
 public class Dish {
     @Id

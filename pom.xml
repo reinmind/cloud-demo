@@ -24,6 +24,8 @@
         <module>kafka-consumer</module>
         <module>pdfbox</module>
         <module>itextpdf</module>
+        <module>spring-boot-dubbo-provider</module>
+        <module>spring-boot-dubbo-consumer</module>
 
     </modules>
     <packaging>pom</packaging>

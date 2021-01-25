@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="itextpdf" />
+        <module name="spring-boot-dubbo-consumer" />
         <module name="provider-payment" />
         <module name="kafka-consumer" />
         <module name="cloud-eureka-server2" />
@@ -24,6 +25,7 @@
         <module name="dubbo-provider" />
         <module name="pdfbox" />
         <module name="mongo-service" />
+        <module name="spring-boot-dubbo-provider" />
         <module name="dubbo-consumer" />
         <module name="authentication" />
       </profile>
